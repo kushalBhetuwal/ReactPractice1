@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Challange1 from "./Challanges/Challange1/Challange1";
+import Challange2 from "./Challanges/Challange2/Challange2";
+import Challange3 from "./Challanges/Challange3/Challange3";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Challange1  />
+      <Challange2 />
+      <Challange3 />
     </div>
   );
-}
-
+};
 export default App;
